@@ -93,7 +93,7 @@
         },
         {
             "work_name": "ProjectLambda",
-            "work_desc": "基于语法树的函数式编程语言解释器，语法以无类型的 Lambda 演算为基础，实现了匿名函数、惰性求值、函数的尾递归优化等特性。",
+            "work_desc": "基于语法树的函数式编程语言解释器，语法以无类型的 Lambda 演算为基础，实现了匿名函数、惰性求值、垃圾回收及函数的尾递归优化等特性。",
             "visit_link": "https://github.com/Jemtaly/ProjectLambda",
             "dataIndex": 1
         },
