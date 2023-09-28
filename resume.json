@@ -1,19 +1,19 @@
 {
     "titleNameMap": {
-        "educationList": "教育背景",
-        "workExpList": "工作经历",
-        "projectList": "项目经验",
-        "skillList": "个人技能",
-        "awardList": "能力及奖项",
-        "workList": "个人作品",
-        "aboutme": "个人评价"
+        "educationList": "Education Background",
+        "workExpList": "Work Experience",
+        "projectList": "Project Experience",
+        "skillList": "Personal Skills",
+        "awardList": "Awards",
+        "workList": "Personal Works",
+        "aboutme": "About Me"
     },
     "avatar": {
         "src": "https://avatars.githubusercontent.com/u/83796250?v=4",
         "hidden": false
     },
     "profile": {
-        "name": "李岱耕",
+        "name": "李岱耕 Daigeng Li",
         "email": "Jemtaly@outlook.com",
         "mobile": "15318722412",
         "github": "https://github.com/Jemtaly",
@@ -26,60 +26,60 @@
                 "2020.09.01",
                 "2024.06.30"
             ],
-            "school": "山东大学",
-            "major": "信息安全",
-            "academic_degree": "本科",
+            "school": "Shandong University",
+            "major": "Information Security",
+            "academic_degree": "Bachelor",
             "dataIndex": 0
         }
     ],
     "awardList": [
         {
             "award_time": "2022",
-            "award_info": "山东大学极客出发CTF竞赛第二名",
+            "award_info": "Shandong University Geek Out CTF 2023 - 2nd Place",
             "dataIndex": 0
         },
         {
             "award_time": "2023",
-            "award_info": "HWS第六期2023冬令营选拔赛第九名",
+            "award_info": "HWS CTF 2023 Winter Camp - 9th Place",
             "dataIndex": 1
         }
     ],
     "workExpList": [],
     "skillList": [
         {
-            "skill_name": "其他",
+            "skill_name": "College Courses",
             "skill_level": 100,
-            "skill_desc": "大学期间学习掌握了线性代数、抽象代数、离散数学、图论与组合学、数论和概率论等数学基础。具备密码学、数据结构与算法、计算机组成原理、编译原理与逆向工程、操作系统原理以及计算机网络等学科的专业知识。",
+            "skill_desc": "Learned and mastered the basic knowledge of linear algebra, abstract algebra, discrete mathematics, graph theory and combinatorics, number theory and probability theory during university. Have the professional knowledge of cryptography, data structure and algorithm, computer composition principle, compiler principle and reverse engineering, operating system principle and computer network.",
             "dataIndex": 0
         },
         {
             "skill_name": "C++",
             "skill_level": 100,
-            "skill_desc": "通过学习与实践，对 C 以及 C++11/14/17/20 的核心语法特性有深入了解。熟悉 STL 库的用法。有一定的个人项目经验。",
+            "skill_desc": "Through learning and practice, I have a deep understanding of the core syntax features of C and C++11/14/17/20. Familiar with the usage of STL library. Have some personal project experience.",
             "dataIndex": 1
         },
         {
             "skill_name": "Python",
             "skill_level": 80,
-            "skill_desc": "对 Python 的各种语法特性有较深入的了解。会使用 NumPy 等常见第三方库，实现过一些简单的网站爬虫脚本。会使用 PyQt 进行图形开发。",
+            "skill_desc": "Have a deep understanding of various syntax features of Python. Can use common third-party libraries such as NumPy to implement some simple web crawler scripts. Can use PyQt for graphic development.",
             "dataIndex": 2
         },
         {
-            "skill_name": "编程语言",
+            "skill_name": "Other Programming Languages",
             "skill_level": 80,
-            "skill_desc": "除前述语言外，还熟悉并能使用包括 Verilog HDL（了解并会使用其基本特性和语法，实现基本的 CPU，密码算法硬件优化等）, Rust, Lua, Lisp, Haskell 在内的多种编程语言，并有很强的接受能力，能快速学习掌握新语言。",
+            "skill_desc": "Also familiar with and can use a variety of programming languages including Verilog HDL (can implement basic CPU, cryptographic algorithms hardware optimizations, etc.), Rust, Lua, Lisp, Haskell, etc., and have a strong acceptance ability, can quickly learn and master new languages.",
             "dataIndex": 3
         },
         {
             "skill_name": "Linux",
             "skill_level": 60,
-            "skill_desc": "会使用基本的 Linux 命令和工具。会使用 bash 等脚本语言实现任务的自动化处理。",
+            "skill_desc": "Can use basic Linux commands and tools. Can use scripting languages such as bash to implement automated processing of tasks.",
             "dataIndex": 4
         },
         {
-            "skill_name": "语言能力",
+            "skill_name": "Language Skills",
             "skill_level": 100,
-            "skill_desc": "英语：六级（519）/ 日语：简单的会话、读写",
+            "skill_desc": "English: CET-6 (519) / Japanese: Simple conversation, reading and writing",
             "dataIndex": 5
         }
     ],
@@ -87,31 +87,31 @@
     "workList": [
         {
             "work_name": "CryptoXX",
-            "work_desc": "使用 C++ 实现的 OO 密码库，旨在利用 C++ 的面向对象特性简化使用步骤，并使密码算法模块化、让不同密码算法具有统一的接口，从而提升易扩展性和灵活性。支持了包括国密算法在内的常见及不常见的多种对称密码及哈希算法。算法经高度优化，部分算法效率能超过 OpenSSL 等经典密码库。",
+            "work_desc": "An OOP cryptography library implemented in C++, which aims to simplify the use steps by using the object-oriented features of C++, modularize the cryptographic algorithm, and make different cryptographic algorithms have a unified interface, so as to improve the scalability and flexibility. Supports a variety of common and uncommon symmetric ciphers and hash algorithms. The algorithms are highly optimized, and the efficiency of some algorithms can exceed that of classic cryptographic libraries such as OpenSSL.",
             "visit_link": "https://github.com/Jemtaly/CryptoXX",
             "dataIndex": 0
         },
         {
             "work_name": "ProjectLambda",
-            "work_desc": "基于语法树的函数式编程语言解释器，语法以无类型的 Lambda 演算为基础，实现了匿名函数、惰性求值、垃圾回收及函数的尾递归优化等特性。",
+            "work_desc": "An interpreter of functional programming language based on syntax tree. The syntax is based on untyped lambda calculus, implementing features such as anonymous functions, lazy evaluation, GC (based on reference counting) and tail call optimization.",
             "visit_link": "https://github.com/Jemtaly/ProjectLambda",
             "dataIndex": 1
         },
         {
             "work_name": "Tk3D",
-            "work_desc": "基于 Python 实现的 3D 引擎雏形。并使用该引擎实现了一个 3D 模型查看器与一个三维函数图像绘制工具。",
+            "work_desc": "A prototype 3D engine based on Python that can project 3D objects and supports basic operations such as camera movement and rotation.",
             "visit_link": "https://github.com/Jemtaly/Tk3D",
             "dataIndex": 2
         },
         {
-            "work_name": "更多……",
-            "work_desc": "在大学期间完成的其它项目，包括课程实践、出于个人兴趣的实践以及方便工作流程的实用工具等……",
+            "work_name": "More...",
+            "work_desc": "Other projects completed during university, including course practice, personal interest projects and utility tools to improve work efficiency.",
             "visit_link": "https://github.com/Jemtaly",
             "dataIndex": 3
         }
     ],
     "aboutme": {
-        "aboutme_desc": "- 有丰富的代码经验，自主完成过以 C, C++ 及 Python 语言为主的多个中小型项目，阅读过 OpenSSL 等开源项目代码。对语言中的核心知识有较为深入的了解。\n\n- 代码风格良好（有一点代码洁癖），适应性强。擅长代码重构及整理冗余代码，能有效提高开发效率。有良好的数理基础和逻辑思维能力。有较强的数据结构及算法设计与优化的能力。\n\n- 通过大学期间的学习，在软件开发及密码学相关学科方面有扎实的专业基础。了解密码学的底层原理多种攻击方式。有 CTF 经历（负责沙箱，MISC 和密码方向）。\n\n- 善于利用工具和脚本以减少重复性劳动，提升工作效率。有通过写脚本实现自动化工作的能力。\n\n- 有很强的和自主学习能力、适应性、资料检索能力及专注度。并善于在团队中协调合作。"
+        "aboutme_desc": "Have rich code experience, independently completed many medium and small projects mainly based on C, C++ and Python languages, and read the code of open source projects such as OpenSSL. Have a deep understanding of the core knowledge in the language.\n\n- Good code style, strong adaptability. Good at code refactoring and organizing redundant code, can effectively improve development efficiency. Have a good mathematical foundation and logical thinking ability. Have strong ability of data structure and algorithm design and optimization.\n\n- Have solid professional foundation in software development and cryptography related disciplines through the study during university. Understand the underlying principles of cryptography and various attack methods. CTF experience (Sandbox, MISC and Cryptography).\n\n- Good at using tools and scripts to reduce repetitive labor and improve work efficiency. Have the ability to implement automated work by writing scripts.\n\n- Have strong self-learning ability, adaptability, information retrieval ability and concentration. And good at coordinating and cooperating in the team."
     },
     "theme": {
         "color": "#2f5785",
