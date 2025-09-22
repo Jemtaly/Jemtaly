@@ -48,8 +48,8 @@
         {
             "project_name": "Taihe",
             "project_time": "2024.07 - 至今",
-            "project_desc": "鸿蒙系统跨语言开发框架，基于 IDL 定义接口，自动生成稳定的底层 ABI 及原生的上层语言绑定代码，支持 C/C++, ArkTS, 仓颉, Kotkin 等多种语言。",
-            "project_role": "作为核心开发者，负责 IDL 语法及类型系统设计（基于 ADT 的纯数据类型、基于接口的面向对象机制等）、编译器实现（包括语言前端解析、IR 层设计与实现、C/C++/ArkTS 等后端代码生成）、底层 C ABI 设计、C++ 投影层设计及 STL-like 标准库实现等工作。设计基于 Promise/Future 模式的异步模型，SBO handler、then/join/select 等组合子。设计基于胖指针的接口对象模型，支持接口继承，RTTI，静态及动态类型转换等功能。编写了多篇设计文档，并负责项目 Code Review 等工作。",
+            "project_desc": "鸿蒙系统跨语言开发框架，基于 IDL 定义接口，自动生成稳定的 C ABI 及多语言的类型安全、符合语言习惯的投影层代码，支持了 C/C++, ArkTS, 仓颉, Kotlin 等多种语言。",
+            "project_role": "作为核心开发者，负责了 IDL 语法及类型系统设计（基于 ADT 的纯数据类型、基于 interface 的面向对象机制等）、编译器实现（包括语言前端解析、IR 层设计与实现、C/C++/ArkTS 等后端代码生成）、底层 C ABI 设计、C++ 零成本抽象投影层设计及 STL-like 标准库实现等工作。设计基于 Promise/Future 模式的异步原语，支持 SBO、提供 then/join/select 等组合子。设计基于胖指针的接口对象模型，支持接口继承，RTTI，静态及动态类型转换等功能。编写了多篇设计文档，并负责项目 Code Review 等工作。",
             "project_link": "https://gitcode.com/openharmony-sig/arkcompiler_taihe_ffi_gen",
             "dataIndex": 0
         }
@@ -96,50 +96,44 @@
         {
             "skill_name": "开发工具",
             "skill_level": 80,
-            "skill_desc": "熟练使用 Git 进行版本控制，了解常用的 Git 工作流。熟悉 CMake 构建系统。",
+            "skill_desc": "熟练使用 Git 进行版本控制，了解常用的 Git 工作流。熟悉 CMake 构建系统。会使用基本的 Linux 命令和工具，会使用和编写 bash 等脚本语言实现任务的自动化处理。",
             "dataIndex": 3
-        },
-        {
-            "skill_name": "Linux",
-            "skill_level": 60,
-            "skill_desc": "会使用基本的 Linux 命令和工具。会使用和编写 bash 等脚本语言实现任务的自动化处理。",
-            "dataIndex": 4
         },
         {
             "skill_name": "编程语言设计和编译器实现",
             "skill_level": 80,
             "skill_desc": "有丰富的 DSL 语法设计和编译器实现的经验。包括语法、语义、IR、Codegen 全链路经验。熟悉常见的编译技术和工具，如 Lex/Yacc, ANTLR 等。了解 LLVM IR 设计。",
-            "dataIndex": 5
+            "dataIndex": 4
         },
         {
             "skill_name": "设计模式与代码重构",
             "skill_level": 80,
             "skill_desc": "熟悉常见的设计模式，且擅长设计良好的代码架构、模块划分和接口设计。能有效地进行代码重构，提升代码的可读性、可维护性和扩展性。",
-            "dataIndex": 6
+            "dataIndex": 5
         },
         {
             "skill_name": "LLM 应用开发",
             "skill_level": 60,
             "skill_desc": "能熟练在工作中使用 LLM 进行辅助编程、文档撰写等工作。掌握 Prompt Engineering 的基本方法和技巧。熟悉知识库的构建等。",
-            "dataIndex": 7
+            "dataIndex": 6
         },
         {
             "skill_name": "密码学和网络安全",
             "skill_level": 80,
             "skill_desc": "掌握对称密码、非对称密码、哈希函数、数字签名、身份认证、密钥交换等密码学基础知识。了解常见的攻击方式及其防御方法。",
-            "dataIndex": 8
+            "dataIndex": 7
         },
         {
             "skill_name": "语言能力",
             "skill_level": 100,
             "skill_desc": "英语：六级（519），可阅读、撰写技术文档，日常技术沟通无障碍 / 日语：简单的会话、读写",
-            "dataIndex": 9
+            "dataIndex": 8
         },
         {
             "skill_name": "其他",
             "skill_level": 100,
             "skill_desc": "大学期间学习掌握了线性代数、抽象代数、离散数学、图论与组合学、数论和概率论等数学基础。具备数据结构与算法、计算机组成原理、编译原理与逆向工程、操作系统原理以及计算机网络等学科的专业知识。自学编程语言与编译器、计算机图形学等领域的相关知识。",
-            "dataIndex": 10
+            "dataIndex": 9
         }
     ],
     "awardList": [
