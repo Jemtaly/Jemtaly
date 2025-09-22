@@ -3,9 +3,9 @@
         "educationList": "教育背景",
         "workExpList": "工作经历",
         "projectList": "项目经验",
+        "workList": "个人作品",
         "skillList": "个人技能",
         "awardList": "能力及奖项",
-        "workList": "个人作品",
         "aboutme": "个人评价"
     },
     "avatar": {
@@ -18,7 +18,7 @@
         "mobile": "15318722412",
         "github": "https://github.com/Jemtaly",
         "zhihu": "",
-        "workExpYear": ""
+        "workExpYear": "1"
     },
     "educationList": [
         {
@@ -32,82 +32,126 @@
             "dataIndex": 0
         }
     ],
-    "awardList": [
+    "workExpList": [
         {
-            "award_time": "2022",
-            "award_info": "山东大学极客出发CTF竞赛第二名",
+            "work_time": [
+                "2024.07",
+                "至今"
+            ],
+            "company": "华为技术有限公司",
+            "position": "软件开发工程师",
+            "work_desc": "负责鸿蒙系统跨语言开发框架 Taihe 的核心开发工作，包括方案设计、编译器实现、ABI 设计及语言投影层实现等工作，过去一年产出代码量超 6 万行。参与编写了多篇设计文档，并负责项目 Code Review 等工作。",
             "dataIndex": 0
-        },
-        {
-            "award_time": "2023",
-            "award_info": "HWS第六期2023冬令营选拔赛第九名",
-            "dataIndex": 1
         }
     ],
-    "workExpList": [],
-    "skillList": [
+    "projectList": [
         {
-            "skill_name": "其他",
-            "skill_level": 100,
-            "skill_desc": "大学期间学习掌握了线性代数、抽象代数、离散数学、图论与组合学、数论和概率论等数学基础。具备密码学、数据结构与算法、计算机组成原理、编译原理与逆向工程、操作系统原理以及计算机网络等学科的专业知识。",
+            "project_name": "Taihe",
+            "project_time": "2024.07 - 至今",
+            "project_desc": "鸿蒙系统跨语言开发框架，基于 IDL 定义接口，自动生成稳定的底层 ABI 及原生的上层语言绑定代码，支持 C/C++, ArkTS, 仓颉, Kotkin 等多种语言。",
+            "project_role": "作为核心开发者，负责 IDL 语法及类型系统设计（基于 ADT 的纯数据类型、基于接口的面向对象机制等）、编译器实现（包括语言前端解析、IR 层设计与实现、C/C++/ArkTS 等后端代码生成）、底层 C ABI 设计、C++ 投影层设计及 STL-like 标准库实现等工作。设计基于 Promise/Future 模式的异步模型，SBO handler、then/join/select 等组合子。设计基于胖指针的接口对象模型，支持接口继承，RTTI，静态及动态类型转换等功能。编写了多篇设计文档，并负责项目 Code Review 等工作。",
+            "project_link": "https://gitcode.com/openharmony-sig/arkcompiler_taihe_ffi_gen",
+            "dataIndex": 0
+        }
+    ],
+    "workList": [
+        {
+            "work_name": "CryptoXX",
+            "work_desc": "Header-only 的 C++20 密码库，利用面向对象设计思想和泛型编程，将多种密码算法进行模块化抽象和接口统一，有极强的可扩展性和灵活性。支持了包括国密算法在内的常见及不常见的多种对称密码及哈希算法。算法经高度优化，部分算法效率能超过 OpenSSL 等经典密码库。",
+            "visit_link": "https://github.com/Jemtaly/CryptoXX",
             "dataIndex": 0
         },
         {
-            "skill_name": "C++",
-            "skill_level": 100,
-            "skill_desc": "通过学习与实践，对 C 以及 C++11/14/17/20 的核心语法特性有深入了解。熟悉 STL 库的用法。有一定的个人项目经验。",
+            "work_name": "QAPy",
+            "work_desc": "本科毕业设计：基于 Groth16 的零知识证明编译器。使用 Python 实现的将类 Python DSL 编写的计算电路自动编译为 QAP (Quadratic Arithmetic Program) 形式的编译器。实现了 AST 到算术电路转换。生成一阶约束系统 (R1CS) 并转换为 QAP 形式。并完整实现了 Groth16 协议的可信设置 (Setup)、证明生成 (Prove) 和证明验证 (Verify) 全流程。",
+            "visit_link": "https://github.com/Jemtaly/QAPy",
             "dataIndex": 1
+        },
+        {
+            "work_name": "更多……",
+            "work_desc": "多为在大学期间完成的其它项目，包括课程实践、出于个人兴趣的实践以及方便工作流程的实用工具等。",
+            "visit_link": "https://github.com/Jemtaly",
+            "dataIndex": 2
+        }
+    ],
+    "skillList": [
+        {
+            "skill_name": "C/C++",
+            "skill_level": 100,
+            "skill_desc": "了解 C 语言的基本语法和特性，熟悉 C 语言 ABI 和内存模型。深入了解现代 C++ 语言特性。熟悉 C++11/14/17/20 标准，熟练掌握面向对象编程、泛型编程等编程范式。熟悉常用的 STL 容器及算法的使用和实现原理，在工作项目中完整实现过包括 variant, vector, map, set, function, promise/future, shared_ptr 和 weak_ptr 等在内的 STL-like 泛型容器。",
+            "dataIndex": 0
         },
         {
             "skill_name": "Python",
+            "skill_level": 100,
+            "skill_desc": "有使用 Python 进行大中型项目开发的经验，熟悉 Python 的各种语法特性、项目组织和构建等。有利用 PyTest, PyLint, Ruff, uv 等进行项目工程化的经验。熟悉常用的标准库和第三方库，有使用 Python 进行数据分析、自动化脚本编写等方面的经验。",
+            "dataIndex": 1
+        },
+        {
+            "skill_name": "其他编程语言",
             "skill_level": 80,
-            "skill_desc": "对 Python 的各种语法特性有较深入的了解。会使用 NumPy 等常见第三方库，实现过一些简单的网站爬虫脚本。会使用 PyQt 进行图形开发。",
+            "skill_desc": "除前述语言外，还熟悉并能使用包括 TypeScript, Lua, Rust, Haskell, Lisp 在内的多种编程语言及 Verilog 等硬件描述语言，并有很强的接受能力，能快速学习掌握新语言。",
             "dataIndex": 2
         },
         {
-            "skill_name": "编程语言",
+            "skill_name": "开发工具",
             "skill_level": 80,
-            "skill_desc": "除前述语言外，还熟悉并能使用包括 Verilog HDL（了解并会使用其基本特性和语法，实现基本的 CPU，密码算法硬件优化等）, Rust, Lua, Lisp, Haskell 在内的多种编程语言，并有很强的接受能力，能快速学习掌握新语言。",
+            "skill_desc": "熟练使用 Git 进行版本控制，了解常用的 Git 工作流。熟悉 CMake 构建系统。",
             "dataIndex": 3
         },
         {
             "skill_name": "Linux",
             "skill_level": 60,
-            "skill_desc": "会使用基本的 Linux 命令和工具。会使用 bash 等脚本语言实现任务的自动化处理。",
+            "skill_desc": "会使用基本的 Linux 命令和工具。会使用和编写 bash 等脚本语言实现任务的自动化处理。",
             "dataIndex": 4
+        },
+        {
+            "skill_name": "编程语言设计和编译器实现",
+            "skill_level": 80,
+            "skill_desc": "有丰富的 DSL 语法设计和编译器实现的经验。包括语法、语义、IR、Codegen 全链路经验。熟悉常见的编译技术和工具，如 Lex/Yacc, ANTLR 等。了解 LLVM IR 设计。",
+            "dataIndex": 5
+        },
+        {
+            "skill_name": "设计模式与代码重构",
+            "skill_level": 80,
+            "skill_desc": "熟悉常见的设计模式，且擅长设计良好的代码架构、模块划分和接口设计。能有效地进行代码重构，提升代码的可读性、可维护性和扩展性。",
+            "dataIndex": 6
+        },
+        {
+            "skill_name": "LLM 应用开发",
+            "skill_level": 60,
+            "skill_desc": "能熟练在工作中使用 LLM 进行辅助编程、文档撰写等工作。掌握 Prompt Engineering 的基本方法和技巧。熟悉知识库的构建等。",
+            "dataIndex": 7
+        },
+        {
+            "skill_name": "密码学和网络安全",
+            "skill_level": 80,
+            "skill_desc": "掌握对称密码、非对称密码、哈希函数、数字签名、身份认证、密钥交换等密码学基础知识。了解常见的攻击方式及其防御方法。",
+            "dataIndex": 8
         },
         {
             "skill_name": "语言能力",
             "skill_level": 100,
-            "skill_desc": "英语：六级（519）/ 日语：简单的会话、读写",
-            "dataIndex": 5
+            "skill_desc": "英语：六级（519），可阅读、撰写技术文档，日常技术沟通无障碍 / 日语：简单的会话、读写",
+            "dataIndex": 9
+        },
+        {
+            "skill_name": "其他",
+            "skill_level": 100,
+            "skill_desc": "大学期间学习掌握了线性代数、抽象代数、离散数学、图论与组合学、数论和概率论等数学基础。具备数据结构与算法、计算机组成原理、编译原理与逆向工程、操作系统原理以及计算机网络等学科的专业知识。自学编程语言与编译器、计算机图形学等领域的相关知识。",
+            "dataIndex": 10
         }
     ],
-    "projectList": [],
-    "workList": [
+    "awardList": [
         {
-            "work_name": "CryptoXX",
-            "work_desc": "使用 C++ 实现的 OO 密码库，旨在利用 C++ 的面向对象特性简化使用步骤，并使密码算法模块化、让不同密码算法具有统一的接口，从而提升易扩展性和灵活性。支持了包括国密算法在内的常见及不常见的多种对称密码及哈希算法。算法经高度优化，部分算法效率能超过 OpenSSL 等经典密码库。",
-            "visit_link": "https://github.com/Jemtaly/CryptoXX",
+            "award_time": "2022",
+            "award_info": "山东大学极客出发 CTF 竞赛第二名",
             "dataIndex": 0
         },
         {
-            "work_name": "ProjectLambda",
-            "work_desc": "基于语法树的函数式编程语言解释器，语法以无类型的 Lambda 演算为基础，实现了匿名函数、惰性求值、垃圾回收及函数的尾递归优化等特性。",
-            "visit_link": "https://github.com/Jemtaly/ProjectLambda",
+            "award_time": "2023",
+            "award_info": "HWS 第六期 2023 冬令营选拔赛第九名",
             "dataIndex": 1
-        },
-        {
-            "work_name": "Tk3D",
-            "work_desc": "基于 Python 实现的 3D 引擎雏形。并使用该引擎实现了一个 3D 模型查看器与一个三维函数图像绘制工具。",
-            "visit_link": "https://github.com/Jemtaly/Tk3D",
-            "dataIndex": 2
-        },
-        {
-            "work_name": "更多……",
-            "work_desc": "在大学期间完成的其它项目，包括课程实践、出于个人兴趣的实践以及方便工作流程的实用工具等……",
-            "visit_link": "https://github.com/Jemtaly",
-            "dataIndex": 3
         }
     ],
     "aboutme": {
